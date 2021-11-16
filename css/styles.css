@@ -620,8 +620,14 @@ img {
   background-color: transparent;
   outline: none;
 }
+.form-input {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .form-input:focus {
   border-color: var(--accent-color);
+}
+.form-input + .modal-form-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus + .modal-form-icon {
   fill: var(--accent-color);
@@ -653,6 +659,9 @@ img {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
+}
+.form-comment {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-comment:focus {
   border-color: var(--accent-color);
@@ -697,6 +706,7 @@ img {
 .input-icon-check {
   fill: #ffffff;
 }
+
 .input-check:checked + .check-text span {
   background-color: var(--accent-color);
   border: none;
