@@ -781,6 +781,7 @@ img {
   font-size: 16px;
   line-height: 1.25;
   background-color: transparent;
+  outline: none;
 }
 .footer-form-link {
   width: 200px;
