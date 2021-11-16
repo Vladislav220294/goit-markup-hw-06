@@ -381,6 +381,46 @@
         <button class="modal-btn" type="button" data-modal-close> <svg class="modal-icon">
             <use href="./image/sprite.svg#icon-close-black"></use>
         </svg> </button>
+        <form class="modal-form">
+            <p class="title-form-text">Оставьте свои данные, мы вам перезвоним</p>
+        <div class="form-field"> 
+            <label for="name" class="form-lable">Имя</label>
+            <span class="input-wraped">
+            <input type="text" id="name" class="form-input">
+            <svg class="modal-form-icon" width="18px" height="18px">
+                <use href="./image/sprite.svg#icon-person"></use>
+            </svg></span>
+        </div>
+            <div class="form-field">
+            <label for="tel" class="form-lable">Телефон</label>
+            <span class="input-wraped">
+                <input type="text" id="tel" class="form-input">
+            <svg class="modal-form-icon" width="18px" height="18px">
+                <use href="./image/sprite.svg#icon-phone"></use>
+            </svg></span>
+            </div>
+            <div class="form-field">
+            <label for="email" class="form-lable">Почта</label>
+            <span class="input-wraped">
+                <input type="text" id="email" class="form-input">
+            <svg class="modal-form-icon" width="18px" height="18px">
+                <use href="./image/sprite.svg#icon-email"></use>
+            </svg></span>
+            </div>
+            <div class="form-field">
+            <label for="comment" class="form-lable">Комментарий</label>
+            <textarea class="form-comment" name="comment" placeholder="Введите текст" id="comment" ></textarea>
+            </div>
+            <div class="form-field-checkbox">
+            <input type="checkbox" name="policy" class="input-check visually-hidden" id="input-check" value="yes">
+            <label for="input-check" class="check-text"> <span>
+                <svg class="input-icon-check" width="11px" height="8px">
+                    <use href="./image/sprite.svg#icon-check"></use>
+                </svg>
+            </span> Соглашаюсь с рассылкой и принимаю <a href="#" class="check-link">  Условия договора</a></label>
+            </div>
+            <button type="submit" class="form-btn">Отправить</button>
+        </form>
     </div>
 </div>
 <script src="./js/modal.js"></script>
